@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
+# typicode / json-server
+
+Get a full fake REST API with zero coding in less than 30 seconds (seriously)
+
+Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.
+
+(https://github.com/typicode/json-server)
+
+Navigate to: `http://localhost:3000/`
+
+install: `npm i -D json-server`
+
+Run `npx json-server db.json`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

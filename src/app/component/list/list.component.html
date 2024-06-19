@@ -1,0 +1,20 @@
+<div class="action-container">
+  <a mat-raised-button color="primary" [routerLink]="['create-todo']"
+    >Criar Tarefa</a
+  >
+</div>
+
+@for (toDo of toDos(); track toDo.id) { @defer (on immediate) {
+
+<div class="item-container">
+  <app-card
+    [toDo]="toDo"
+    (edit)="onEdit(toDo)"
+    (delete)="onDelete(toDo)"
+  ></app-card>
+</div>
+
+} } @empty { @defer (on immediate) {
+<!-- Difer Block -->
+<app-no-items></app-no-items>
+} }
