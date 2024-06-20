@@ -22,6 +22,7 @@ export class CardComponent {
   @Output() edit = new EventEmitter();
   @Output() delete = new EventEmitter();
 
+  // O "computed" é um "signal" que escuta outros signal (apenas leitura e recomputa)
   toDoTitle = computed(() => this.toDo().title);
 
   onEdit() {

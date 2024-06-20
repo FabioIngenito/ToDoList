@@ -9,6 +9,7 @@ Get a full fake REST API with zero coding in less than 30 seconds (seriously)
 Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.
 
 (https://github.com/typicode/json-server)
+(https://www.npmjs.com/package/json-server)
 
 Navigate to: `http://localhost:3000/`
 

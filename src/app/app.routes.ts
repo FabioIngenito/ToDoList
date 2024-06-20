@@ -13,7 +13,7 @@ export const routes: Routes = [
   },
   {
     path: 'create-todo',
-    // LazyLoad
+    // Lazy Load
     loadComponent: () =>
       import('./component/create/create.component').then(
         (m) => m.CreateComponent
